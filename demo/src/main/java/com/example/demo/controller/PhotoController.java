@@ -25,8 +25,8 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 @RequestMapping("/photos")
 public class PhotoController {
 
-    private static final String KEY_ID = "YCAJEDm3qyGwDnnM5jk8Px9j2";
-    private static final String SECRET_KEY = "YCPiaginSuBH7aD5gU0BORGL9Zgd5UIiqcQ1aN7P";
+    private static final String KEY_ID = "KEY_ID";
+    private static final String SECRET_KEY = "SECRET_KEY";
     private static final String REGION = "ru-central1";
     private static final String S3_ENDPOINT = "https://storage.yandexcloud.net";
 
